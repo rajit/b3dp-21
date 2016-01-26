@@ -1,0 +1,18 @@
+<head>
+  <title>b3dp-21</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <div class="form-group">
+    <label id="dueDate" class="col-sm-3 control-label" for="dueDate">Due Date</label>
+    <div class="col-sm-9">
+      <input class="form-control" data-provide="datepicker" id="datepicker" name="dueDate" type="text" value="" placeholder="Choose Due Date">
+    </div>
+  </div>
+</template>

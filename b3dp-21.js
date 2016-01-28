@@ -1,3 +1,4 @@
+
 if (Meteor.isClient) {
   Template.hello.onRendered(function () {
     $('#datepicker').datepicker({ format: "mm-dd-yy", autoclose: true });
